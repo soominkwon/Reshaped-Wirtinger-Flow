@@ -13,7 +13,7 @@ from generate_rwf import generateOneMagnitude
 
 # initializing
 image_name = 'image_tensor_small.npz'
-m_dim = 3000 # 10x the dimensions of the image
+m_dim = 900 # 10x the dimensions of the image
 
 # generating sample data
 x_reshaped, y, A_mat = generateOneMagnitude(image_name=image_name, m_dim=m_dim)
